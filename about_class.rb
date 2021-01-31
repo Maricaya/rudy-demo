@@ -8,4 +8,4 @@ end
 # 这些语句都会执行
 
 # 那么这里是否定义了三个名为 C 的 class 呢
-# 请看 about_class2.rb
+# 请看 about_class_2.rb
