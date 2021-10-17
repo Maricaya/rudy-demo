@@ -1,9 +1,13 @@
 class D
-  def x; 'x'; end
+  def x
+    'x';
+  end
 end
 
 class D
-  def y; 'y'; end
+  def y
+    'y';
+  end
 end
 
 obj = D.new

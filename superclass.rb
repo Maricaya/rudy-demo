@@ -8,7 +8,7 @@ p Array.superclass # Object
 p Array.is_a? Class
 p '--MyClass--'
 class MyClass; end
-p MyClass.superclass
+p MyClass.superclass # Object
 p MyClass.is_a? Class
 
 # 不用想，所有类都是 Class 类的实例，或者说所有类的构造者都是 Class

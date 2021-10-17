@@ -25,7 +25,7 @@ class MyClass
 end
 
 obj1 = MyClass.new
-p obj1.testing_self
+p obj1.testing_self # #<MyClass:0x00007fb3e60343b8 @var=11>
 # # 这次调用中 @var 是 obj1 的 @var，my_method 是 obj1 的 my_method，self 就是 obj1
 obj2 = MyClass.new
 p obj2.testing_self
@@ -41,13 +41,13 @@ p self # main
 # Ruby 开始执行程序时，会创建一个对象，这个对象自定义了 to_s 和 inspect 方法，所以打印出来一个 main
 class Temp
   def to_s
-    '方方的temp'
+    '方方的temp1'
   end
   def inspect
-    '方方的temp'
+    '方方的temp2'
   end
 end
-p Temp.new
+p Temp.new # 方方的temp2
 ########################
 # 类定义中的 self 是谁？ #
 ########################

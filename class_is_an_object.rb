@@ -13,10 +13,10 @@ p 'hello'.is_a? String # true。 is_a? 就是函数的名字，没错，问号�
 p 'world'.is_a? String # true
 p String.is_a? Class # true，说明 String 是 Class 的实例
 p Array.is_a? Class # true，说明 Array 是 Class 的实例
-
 # 1 所有类都是Class的实例
 # 2 Class 也是类
 # => Class 是不是 Class 的实例
+p Class.is_a? Class # true
 
 # 注意，这里并没有说 String 和 Array 继承了 Class
 # 就像你不会说 'hello' 继承了 String
